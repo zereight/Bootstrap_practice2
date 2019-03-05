@@ -29,5 +29,39 @@
 }
 
 .search-bar-dropdown-box{
+    position: relative !important;
+    right: 380px !important;
+}
 
+.search-bar-dropdown-box > .dropdown-menu {
+    width: 455px;
+    padding: 0px;
+}
+.dropdown-menu > .row {
+    margin: 0px;
+}
+.dropdown-menu > .row:first-child {
+    margin: 0px;
+    background-color: rgb(241, 233, 217);
+}
+.recent-search-bar-active {
+    background-color: white;
+}
+
+.recent-search-bar-title{
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+}
+
+.recent-search-bar-bottom{
+    background-color: rgb(241, 233, 217);
+    color: gray;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+.recent-search-bar-bottom:nth-child(2){
+    color: rgb(104, 97, 97);
+    
 }
