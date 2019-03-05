@@ -1,0 +1,33 @@
+.container {
+    margin-top: 10px;
+}
+
+.header-nav {
+    text-decoration: none !important; 
+    color:gray;
+}
+
+.header-navbar-form-searchBar {
+    width: 455px;
+    height: 66px;
+    border: 3px solid rgb(70, 212, 70);
+    margin: 5px 5px 0px 5px;
+}
+
+.btn > .fa-keyboard,
+.btn > .fa-caret-down {
+    margin: 5px;
+    padding: 0px;
+}
+
+.btn > .fa-search {
+    font-size: 2em;
+}
+
+.search-bar-dropdown-btn{
+    padding: 0px;
+}
+
+.search-bar-dropdown-box{
+
+}
