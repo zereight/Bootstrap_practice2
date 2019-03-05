@@ -1,6 +1,9 @@
+/*header css*/
+
 .container {
     margin-top: 10px;
 }
+
 
 .header-nav {
     text-decoration: none !important; 
@@ -65,4 +68,19 @@
     color: rgb(104, 97, 97);
 
 }
+ 
+.header--btm-row-col > .col,
+.header--btm-row-col > .col-1,
+.header--btm-row-col > .col-2,
+.header--btm-row-col > .col-3,
+.header--btm-row-col > .row {
+    padding: 0px;
+    margin: 0px;
+}
 
+.col > p,
+.col-1 > p,
+.col-2 > p,
+.col-3 > p {
+    text-align: center;
+}

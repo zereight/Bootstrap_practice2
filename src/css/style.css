@@ -1,11 +1,17 @@
-@import 'bootstrapPlus.css';
+@import 'bootstrapHeader.css';
+
+body{
+    min-width: 1210px;
+}
 
 hr {
     margin: 0px;
 }
 
-@media  screen and (min-width: 530px) {
-    body{
-        background-color: yellow;
-    }
+input[text]{
+    outline: none;
+}
+
+p {
+    margin:0px;
 }
