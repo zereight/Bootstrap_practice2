@@ -1,7 +1,8 @@
 @import 'bootstrapHeader.css';
 @import 'bootstrapMain.css';
 body{
-    min-width: 1210px;
+    width: auto;
+    
 }
 
 hr {
